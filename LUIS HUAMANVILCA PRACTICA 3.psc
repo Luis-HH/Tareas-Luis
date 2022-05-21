@@ -1,9 +1,9 @@
 Algoritmo par_impar
-	Definir a Como Real
+	Definir a Como Entero
 	Escribir "Por favor ingrese un número"
 	Leer a
 	//condicion si el numero es cero
-	Mientras a=0 Hacer
+	Mientras (a=0)|(a<0) Hacer
 		Escribir "ingrese otro numero"
 		Leer a
 	FinMientras
